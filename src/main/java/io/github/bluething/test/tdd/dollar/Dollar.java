@@ -6,11 +6,11 @@ public class Dollar {
         this.amount = amount;
     }
 
-    public void multiplyBy(int i) {
-
+    public Dollar multiplyBy(int i) {
+        return new Dollar(amount * i);
     }
 
     public long getAmount() {
-        return 25;
+        return amount;
     }
 }

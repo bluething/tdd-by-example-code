@@ -9,4 +9,8 @@ public class Dollar {
     public void multiplyBy(int i) {
 
     }
+
+    public long getAmount() {
+        return amount;
+    }
 }

@@ -5,4 +5,8 @@ public class Dollar {
     public Dollar(long amount) {
         this.amount = amount;
     }
+
+    public void multiplyBy(int i) {
+
+    }
 }

@@ -7,7 +7,7 @@ public class DollarTest {
     @Test
     public void dollarMultiplyByPositiveValueReturnNewValueMultipliedByInput() {
         Dollar dollar = new Dollar(5);
-        dollar.multiplyBy(5);
-        Assertions.assertEquals(25, dollar.getAmount());
+        Dollar multipliedDollar = dollar.multiplyBy(5);
+        Assertions.assertEquals(25, multipliedDollar.getAmount());
     }
 }

@@ -11,6 +11,6 @@ public class Dollar {
     }
 
     public long getAmount() {
-        return amount;
+        return 25;
     }
 }

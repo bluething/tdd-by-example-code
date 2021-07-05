@@ -1,3 +1,5 @@
+Remember, TDD is not about _taking_ teeny-tiny steps, it's about _being able to_ take teeny-tiny steps.
+
 ### TODO
 
 1. $5+10CHF=$10 if rate is 2:1  

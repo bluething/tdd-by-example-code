@@ -17,4 +17,11 @@ public class DollarTest {
         Dollar multipledDollar = dollar.multiplyBy(5);
         Assertions.assertEquals(5, dollar.getAmount());
     }
+
+    @Test
+    public void dollarEqualsGivenAnotherDollarWithSameValueMustReturnTrue() {
+        Dollar dollar = new Dollar(5);
+        Dollar otherDollar = new Dollar(5);
+        Assertions.assertTrue(dollar.equals(otherDollar));
+    }
 }

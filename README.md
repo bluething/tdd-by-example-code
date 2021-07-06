@@ -7,7 +7,7 @@ Remember, TDD is not about _taking_ teeny-tiny steps, it's about _being able to_
 3. make "amount" private  
 4. ~~side effect~~  
 5. Money rounding
-6. equals()  
+6. **equals()**  
 7. hashCode()
 
 #### Dependency and Duplication

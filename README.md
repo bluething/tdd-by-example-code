@@ -19,3 +19,14 @@ If dependency is the problem, duplication is the symptom. Duplication most often
 1. Write a test. Think about how you would like the operation in your mind to appear in your code.  
 2. Make it run. Speed is the key. If the clean, simple solution is obvious, but it will take you a minute, then make a note of it and get back to the main problem, which is getting the bar green in seconds.  
 3. Make it right. Make the code clean and keep the test pass.
+
+#### How to make test green quickly
+
+We have two choices:  
+1. Fake it. Return a constant and gradually replace constants with variables until you have the real code.  
+2. Use Obvious Implementation. Type in the real implementation.
+
+Other option, triangulation  
+1. Translated a design objection (side effects) into a test case that failed because of the objection.  
+2. Got the code to compile quickly with a stub implementation.  
+3. Made the test work by typing in what seemed to be the right code

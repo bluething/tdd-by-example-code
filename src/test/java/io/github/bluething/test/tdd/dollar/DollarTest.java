@@ -23,5 +23,7 @@ public class DollarTest {
         Dollar dollar = new Dollar(5);
         Dollar otherDollar = new Dollar(5);
         Assertions.assertTrue(dollar.equals(otherDollar));
+        Dollar thirdDollar = new Dollar(6);
+        Assertions.assertFalse(dollar.equals(thirdDollar));
     }
 }

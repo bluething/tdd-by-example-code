@@ -35,4 +35,5 @@ Other option, triangulation
 
 Using triangulation, we only generalize code when we have two examples or more. When the second example demands a more general solution, then and only then do we generalize.  
 Use it when we are unsure of how to refactor.  
-If we can see how to eliminate duplication between code and tests and create the general solution, then just do it.
+If we can see how to eliminate duplication between code and tests and create the general solution, then just do it.  
+Triangulation provides a chance to think about the problem from a slightly different direction.

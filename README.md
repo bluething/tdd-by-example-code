@@ -31,4 +31,8 @@ We have two choices:
 Other option, triangulation  
 1. Translated a design objection (side effects) into a test case that failed because of the objection.  
 2. Got the code to compile quickly with a stub implementation.  
-3. Made the test work by typing in what seemed to be the right code
+3. Made the test work by typing in what seemed to be the right code.
+
+Using triangulation, we only generalize code when we have two examples or more. When the second example demands a more general solution, then and only then do we generalize.  
+Use it when we are unsure of how to refactor.  
+If we can see how to eliminate duplication between code and tests and create the general solution, then just do it.

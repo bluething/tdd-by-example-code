@@ -11,7 +11,7 @@ Remember, TDD is not about _taking_ teeny-tiny steps, it's about _being able to_
 7. hashCode()  
 8. Equal null  
 9. Equal object  
-10. **$5+10CHF=$10**
+10. ~~$5+10CHF=$10~~
 
 #### Dependency and Duplication
 

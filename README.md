@@ -8,7 +8,9 @@ Remember, TDD is not about _taking_ teeny-tiny steps, it's about _being able to_
 4. ~~side effect~~  
 5. Money rounding
 6. ~~equals()~~  
-7. hashCode()
+7. hashCode()  
+8. Equal null  
+9. Equal object
 
 #### Dependency and Duplication
 

@@ -1,5 +1,6 @@
 package io.github.bluething.test.tdd.dollar;
 
+import io.github.bluething.test.tdd.franc.Franc;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

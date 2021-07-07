@@ -10,13 +10,9 @@ public class Dollar {
         return new Dollar(amount * i);
     }
 
-    public long getAmount() {
-        return amount;
-    }
-
     @Override
     public boolean equals(Object obj) {
-        long amount = ((Dollar)obj).getAmount();
+        long amount = ((Dollar)obj).amount;
         return this.amount == amount;
     }
 }

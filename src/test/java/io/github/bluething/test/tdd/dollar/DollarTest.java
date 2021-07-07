@@ -7,15 +7,14 @@ public class DollarTest {
     @Test
     public void dollarMultiplyByPositiveValueReturnNewValueMultipliedByInput() {
         Dollar dollar = new Dollar(5);
-        Dollar multipliedDollar = dollar.multiplyBy(5);
-        Assertions.assertEquals(25, multipliedDollar.getAmount());
+        Assertions.assertEquals(new Dollar(25), dollar.multiplyBy(5));
     }
 
     @Test
     public void dollarMultiplyByPositiveValueTheOldValueDoesntChanged() {
         Dollar dollar = new Dollar(5);
         Dollar multipledDollar = dollar.multiplyBy(5);
-        Assertions.assertEquals(5, dollar.getAmount());
+        Assertions.assertEquals(new Dollar(5), dollar);
     }
 
     @Test

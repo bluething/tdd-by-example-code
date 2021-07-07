@@ -4,7 +4,7 @@ Remember, TDD is not about _taking_ teeny-tiny steps, it's about _being able to_
 
 1. $5+10CHF=$10 if rate is 2:1  
 2. ~~$5*2 = $10~~  
-3. **make "amount" private**  
+3. ~~make "amount" private~~  
 4. ~~side effect~~  
 5. Money rounding
 6. ~~equals()~~  
